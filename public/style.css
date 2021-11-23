@@ -6,4 +6,9 @@ body {
 body {
   overflow: hidden;
   background: #292a33;
+  color: #ddd;
+}
+
+a {
+  color: #47f9ff;
 }

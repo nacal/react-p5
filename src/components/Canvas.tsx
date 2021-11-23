@@ -1,16 +1,7 @@
 import React, { useEffect } from 'react'
 import p5 from 'p5'
 
-type Props = {
-  sketch: (
-    p: p5,
-    width?: number,
-    height?: number,
-    xy?: [number, number]
-  ) => void
-}
-
-const Canvas: React.FC<Props> = (props) => {
+const Canvas = (props: any) => {
   useEffect(() => {
     new p5(props.sketch)
   }, [props.sketch])

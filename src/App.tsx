@@ -1,11 +1,16 @@
 import React from 'react'
-import * as sketch from './sketch'
-import Canvas from './components/Canvas'
+import { Route, BrowserRouter, Routes } from 'react-router-dom'
+import { Home, Chapter1 } from './pages'
 
 const App = () => {
   return (
     <>
-      <Canvas sketch={sketch.chapter1} />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/chapter1' element={<Chapter1 />} />
+          <Route path='/' element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
