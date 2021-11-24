@@ -12,6 +12,9 @@ const Home = () => {
             <li>
               <a href='/chapter3/fillAndStroke'>塗りとストローク</a>
             </li>
+            <li>
+              <a href='/chapter3/fillAndStroke2'>塗りとストローク その2</a>
+            </li>
           </ul>
         </li>
       </ul>
