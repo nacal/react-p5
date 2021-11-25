@@ -1,4 +1,4 @@
-import Canvas from 'Canvas'
+import { Canvas } from 'components'
 import p5 from 'p5'
 
 const fillAndStroke = (p: p5) => {
