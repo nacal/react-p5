@@ -1,4 +1,4 @@
-import { Canvas } from 'components'
+import Canvas from 'Canvas'
 import p5 from 'p5'
 
 const viewCircle = (p: p5) => {
