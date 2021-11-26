@@ -1,5 +1,12 @@
 import { Route, Routes } from 'react-router-dom'
-import { Home, ViewCircle, FillAndStroke, FillAndStroke2 } from './index'
+import {
+  Home,
+  ViewCircle,
+  FillAndStroke,
+  FillAndStroke2,
+  MousePointer,
+  MousePointerClear,
+} from './index'
 
 const AppChapter3 = () => {
   return (
@@ -9,6 +16,8 @@ const AppChapter3 = () => {
         <Route path='viewCircle' element={<ViewCircle />} />
         <Route path='fillAndStroke' element={<FillAndStroke />} />
         <Route path='fillAndStroke2' element={<FillAndStroke2 />} />
+        <Route path='mousePointer' element={<MousePointer />} />
+        <Route path='MousePointerClear' element={<MousePointerClear />} />
       </Routes>
     </>
   )
