@@ -10,6 +10,9 @@ import {
   MousePointer3,
   Random,
   Random2,
+  Eclipse,
+  EclipseExample,
+  EclipseExample2,
 } from './index'
 
 const AppChapter3 = () => {
@@ -26,6 +29,9 @@ const AppChapter3 = () => {
         <Route path='mousePointer3' element={<MousePointer3 />} />
         <Route path='random' element={<Random />} />
         <Route path='random2' element={<Random2 />} />
+        <Route path='eclipse' element={<Eclipse />} />
+        <Route path='eclipseExample' element={<EclipseExample />} />
+        <Route path='eclipseExample2' element={<EclipseExample2 />} />
       </Routes>
     </>
   )

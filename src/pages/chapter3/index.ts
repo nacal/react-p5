@@ -9,6 +9,9 @@ import MousePointer2 from './MousePointer2'
 import MousePointer3 from './MousePointer3'
 import Random from './Random'
 import Random2 from './Random2'
+import Eclipse from './Eclipse'
+import EclipseExample from './EclipseExample'
+import EclipseExample2 from './EclipseExample2'
 
 export {
   Home,
@@ -22,4 +25,7 @@ export {
   MousePointer3,
   Random,
   Random2,
+  Eclipse,
+  EclipseExample,
+  EclipseExample2,
 }

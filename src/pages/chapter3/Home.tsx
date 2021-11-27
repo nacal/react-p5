@@ -30,6 +30,15 @@ const Chapter3 = () => {
         <li>
           <a href='/chapter3/random2'>ランダムを利用する その2</a>
         </li>
+        <li>
+          <a href='/chapter3/eclipse'>楕円の描画</a>
+        </li>
+        <li>
+          <a href='/chapter3/eclipseExample'>楕円を利用した作例</a>
+        </li>
+        <li>
+          <a href='/chapter3/eclipseExample2'>楕円を利用した作例 その2</a>
+        </li>
       </ul>
     </main>
   )
