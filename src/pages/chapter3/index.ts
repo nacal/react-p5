@@ -5,6 +5,8 @@ import FillAndStroke from './FillAndStroke'
 import FillAndStroke2 from './FillAndStroke2'
 import MousePointer from './MousePointer'
 import MousePointerClear from './MousePointerClear'
+import MousePointer2 from './MousePointer2'
+import MousePointer3 from './MousePointer3'
 
 export {
   Home,
@@ -14,4 +16,6 @@ export {
   FillAndStroke2,
   MousePointer,
   MousePointerClear,
+  MousePointer2,
+  MousePointer3,
 }

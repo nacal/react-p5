@@ -18,6 +18,12 @@ const Chapter3 = () => {
         <li>
           <a href='/chapter3/mousePointerClear'>画面のクリア</a>
         </li>
+        <li>
+          <a href='/chapter3/mousePointer2'>マウス座標を利用する その2</a>
+        </li>
+        <li>
+          <a href='/chapter3/mousePointer3'>マウス座標を利用する その3</a>
+        </li>
       </ul>
     </main>
   )

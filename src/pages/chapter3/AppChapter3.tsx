@@ -6,6 +6,8 @@ import {
   FillAndStroke2,
   MousePointer,
   MousePointerClear,
+  MousePointer2,
+  MousePointer3,
 } from './index'
 
 const AppChapter3 = () => {
@@ -18,6 +20,8 @@ const AppChapter3 = () => {
         <Route path='fillAndStroke2' element={<FillAndStroke2 />} />
         <Route path='mousePointer' element={<MousePointer />} />
         <Route path='MousePointerClear' element={<MousePointerClear />} />
+        <Route path='mousePointer2' element={<MousePointer2 />} />
+        <Route path='mousePointer3' element={<MousePointer3 />} />
       </Routes>
     </>
   )
