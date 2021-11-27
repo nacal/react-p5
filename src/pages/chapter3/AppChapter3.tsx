@@ -8,6 +8,8 @@ import {
   MousePointerClear,
   MousePointer2,
   MousePointer3,
+  Random,
+  Random2,
 } from './index'
 
 const AppChapter3 = () => {
@@ -22,6 +24,8 @@ const AppChapter3 = () => {
         <Route path='MousePointerClear' element={<MousePointerClear />} />
         <Route path='mousePointer2' element={<MousePointer2 />} />
         <Route path='mousePointer3' element={<MousePointer3 />} />
+        <Route path='random' element={<Random />} />
+        <Route path='random2' element={<Random2 />} />
       </Routes>
     </>
   )

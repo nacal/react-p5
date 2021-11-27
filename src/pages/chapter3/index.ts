@@ -7,6 +7,8 @@ import MousePointer from './MousePointer'
 import MousePointerClear from './MousePointerClear'
 import MousePointer2 from './MousePointer2'
 import MousePointer3 from './MousePointer3'
+import Random from './Random'
+import Random2 from './Random2'
 
 export {
   Home,
@@ -18,4 +20,6 @@ export {
   MousePointerClear,
   MousePointer2,
   MousePointer3,
+  Random,
+  Random2,
 }

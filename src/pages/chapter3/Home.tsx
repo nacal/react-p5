@@ -24,6 +24,12 @@ const Chapter3 = () => {
         <li>
           <a href='/chapter3/mousePointer3'>マウス座標を利用する その3</a>
         </li>
+        <li>
+          <a href='/chapter3/random'>ランダムを利用する</a>
+        </li>
+        <li>
+          <a href='/chapter3/random2'>ランダムを利用する その2</a>
+        </li>
       </ul>
     </main>
   )
