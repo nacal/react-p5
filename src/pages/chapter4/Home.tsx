@@ -2,6 +2,7 @@ const Home = () => {
   const links = [
     ['gainDiameter', '直径の増加'],
     ['resetGainDiameter', '円が画面全体を覆ったらリセットする'],
+    ['changeColor', '色の変更'],
   ]
 
   const list = links.map((link) => (

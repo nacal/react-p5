@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
-import { Home, GainDiameter, ResetGainDiameter } from './index'
+import { Home, GainDiameter, ResetGainDiameter, ChangeColor } from './index'
 
 const AppChapter3 = () => {
   return (
@@ -8,6 +8,7 @@ const AppChapter3 = () => {
         <Route path='/' element={<Home />} />
         <Route path='gainDiameter' element={<GainDiameter />} />
         <Route path='resetGainDiameter' element={<ResetGainDiameter />} />
+        <Route path='changeColor' element={<ChangeColor />} />
       </Routes>
     </>
   )
