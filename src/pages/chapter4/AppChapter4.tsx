@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom'
 import { Home, GainDiameter, ResetGainDiameter, ChangeColor } from './index'
 
-const AppChapter3 = () => {
+const AppChapter4 = () => {
   return (
     <>
       <Routes>
@@ -13,4 +13,4 @@ const AppChapter3 = () => {
     </>
   )
 }
-export default AppChapter3
+export default AppChapter4

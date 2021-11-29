@@ -8,6 +8,9 @@ const Home = () => {
       <h2>
         <a href='/chapter4'>chapter4:等速の変化</a>
       </h2>
+      <h2>
+        <a href='/chapter5'>chapter5:色の指定</a>
+      </h2>
     </main>
   )
 }
