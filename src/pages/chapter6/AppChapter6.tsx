@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
-import { Home, LinearInterpolation } from './index'
+import { Home, LinearInterpolation, MapExample } from './index'
 
 const AppChapter6 = () => {
   return (
@@ -7,6 +7,7 @@ const AppChapter6 = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='linearInterpolation' element={<LinearInterpolation />} />
+        <Route path='mapExample' element={<MapExample />} />
       </Routes>
     </>
   )

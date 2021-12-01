@@ -1,5 +1,8 @@
 const Home = () => {
-  const links = [['linearInterpolation', '線形補間を利用した作例']]
+  const links = [
+    ['linearInterpolation', '線形補間を利用した作例'],
+    ['mapExample', 'マップの利用例'],
+  ]
 
   const list = links.map((link) => (
     <li>
