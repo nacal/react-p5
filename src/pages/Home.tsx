@@ -11,6 +11,9 @@ const Home = () => {
       <h2>
         <a href='/chapter5'>chapter5:色の指定</a>
       </h2>
+      <h2>
+        <a href='/chapter6'>chapter6:正規化・線形補間・マップ</a>
+      </h2>
     </main>
   )
 }
